@@ -16,3 +16,4 @@ let newArrayOfStrings = [];
 // Позволяет на лету выполнять операции с парой ключ-значение
 Array.from(myMap, ([key,value]) => newArrayOfStrings.push(`${key} - ${value}`) );
 console.log(newArrayOfStrings);
+
